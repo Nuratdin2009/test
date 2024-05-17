@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+    height: 100vh;
+    background-image: url('./imgs/earth.png');
+    background-size: 608px 616px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 38px 0;
+    gap: 179px;
+}
+
+.header-inner__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-inner__top a {
+    color: white;
+}
+
+.header-inner__bottom {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-inner__bottom>div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-inner__bottom>h1 {
+    font-size: 46px;
+    width: 863px;
+    text-align: center;
+}
+
+.header-inner__bottom>div>p {
+    font-size: 16px;
+    width: 265px;
+    height: 57px;
+}
+
+.header-inner__bottom>div>p {
+    font-size: 16px;
+    width: 125px;
+    height: 38px;
+}
+
+.dover {
+    width: 1920px;
+    height: 720px;
+    background-color: whitesmoke;
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+}
+
+.box1 {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-left: -100px;
+    font-size: 30px;
+    padding: 3px;
+}
+
+.staj {
+    width: 300px;
+    height: 85px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: -20px;
+    padding: 10px;
+}
+
+.telephone {
+    width: 235px;
+    height: 220px;
+    background-color: white;
+    margin-top: 55px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box2 {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    margin-top: -400px;
+    margin-left: 380px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.usenik {
+    width: 250px;
+    height: 130px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.tele {
+    width: 235px;
+    height: 180px;
+    background-color: white;
+    margin-top: 55px;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-top: -190px;
+    padding: 30px;
+}
+
+.box3 {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    margin-top: -170px;
+    margin-left: 700px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.auditoria {
+
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.box4 {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: -700px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.bole {
+width: 250px;
+height: 80px;
+background-color: whitesmoke;
+font-size: 20px;
+margin-top: 30px;
+}
+
+.box5 {
+    width: 44px;
+    height: 44px;
+    background-color:white;
+    margin-top: -130px;
+    margin-left: 350px;
+    border-radius: 10px;
+    font-size: 30px;   
+}
+
+.portfel {
+    width: 250px;
+    height: 80px;
+    background-color: whitesmoke;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+.rubl {
+width: 276px;
+height: 150px;
+background-color: white;
+border-radius: 10px;
+margin-left: 340px;
+margin-top: -100px;
+padding: 20px;
+}
